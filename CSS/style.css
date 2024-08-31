@@ -1,0 +1,328 @@
+
+
+:root {
+    --bs-blue: #0d6efd;
+    --bg-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bg-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bg-primary: #0d6efd;
+    --bg-secondary: #6c757d;
+    --bg-success: #198754;
+    --bs-info: #0dcaf0;
+    --bg-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bg-light: #f8f9fa;
+    --bg-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+
+
+::-webkit-scrollbar{
+    width: .375rem;
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: var(--bg-warning);
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: var(--bg-warning);
+}
+  
+
+
+.wrapper{
+    padding: 6.25rem 0;
+
+}
+
+
+button{
+    width: 8rem;
+     
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 3px 8px;
+     
+}
+
+
+
+h1{
+    font-size: 3.875rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+h2{
+    font-size: 2.875rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+h3{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+  
+    color: black;
+    line-height: 2.25rem;
+}
+
+h5{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: .9375rem;
+}
+ 
+
+h6{
+    font-size: 875rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+  text-transform: uppercase;
+    color: black;
+    margin-bottom: .9375rem;
+}
+
+
+p{
+    font-size: 1rem;
+    color: var(--bs-gray);
+    line-height: 1.625rem;
+}
+
+.card{
+    border-radius: .625rem;
+    background-color: var(--bs-white);
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 3px 8px;
+    padding: 3.75rem 3.125rem 4.6875rem;
+    transition: all .4s;
+    border: 0;
+
+}
+
+@keyframes move{
+    0%{
+        -webkit-transform-translateY:(0);
+        transform: translateY(0);
+    }
+    50%{
+        -webkit-transform-translateY:(1.25rem);
+        transform: translateY(1.25rem);
+    }
+    100%{
+        -webkit-transform-translateY:(0);
+        transform: translateY(0);
+    }
+}
+
+/* ===================================================================== navbar start=======================================================*/
+
+ .navbar{
+    padding: 9375rem 0;
+    background-color: var(--bs-gray);
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 3px 8px;
+    transition: 0.3s ease-in-out;
+ }
+.navbar img {
+   height: 10vh;
+   border-radius: 50%;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+/* =====================================navbar end=================================================================================== */
+
+
+.Banner-section{
+    background-image: url("../Img/JM771563.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Banner-section p{
+   max-width: 80%;
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
